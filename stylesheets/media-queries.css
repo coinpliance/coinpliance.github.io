@@ -1,0 +1,220 @@
+/*--- FreshGenius.com ---*/
+
+/*-------------------------------------- MEDIA QUERIES ---*/
+ @media only screen and (min-width: 768px) and (max-width: 959px)  {
+	img {max-width: 100%;}
+	iframe {max-width: 100%;}	
+	
+	.grid_1 { width: 44px;}
+	.grid_2 { width: 108px;}
+	.grid_3 { width: 172px;}
+	.grid_4 { width: 236px;}
+	.grid_5 { width: 300px;}
+	.grid_6 { width: 364px;}
+	.grid_7 { width: 428px;}
+	.grid_8 { width: 492px;}
+	.grid_9 { width: 556px;}
+	.grid_10 { width: 620px;}
+	.grid_11 { width: 684px;}
+	.grid_12 { width: 748px;}
+	
+	#Logo{
+	margin-top: 14px;
+	}
+	#Logo img{
+	width:200px;
+	}
+	.navList li a {
+	margin-left: 15px;
+	}	
+	.navList {
+	width: 500px;
+	}
+	.navList li {
+	font-size: 1.6em;
+	}	
+
+}
+
+
+@media only screen and (max-width: 767px)  {
+	
+	img {max-width: 100%;}
+	iframe {
+	max-width: 298px;
+	max-height: 168px;
+	}	
+	
+	header {
+	height: 50px;
+	}	
+	#Logo {
+	display: none;
+	}
+	.navList {
+	width: 100%;
+	margin-left: -11px;
+	text-align: center;
+	}
+	.navList li {
+	font-size: 1.5em;
+	}	
+	.navList li a {
+	margin-left: 11px;
+	}
+	footer {
+	height: 50px;
+	}	
+	footer p{
+	margin-top: -9px;	
+	margin-top: -5px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ 	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5, 
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11, 
+	.grid_12 { 
+		width: 460px;
+		margin: 0 0 20px 0;
+		float: none;
+		display: block;}
+		
+	.grid_12 {
+		margin: 0 auto;}
+	.sloganArea h1 {
+		font-size: 3.5em;
+		margin-bottom: 15px;
+	}
+	
+	.slideshowWrapper h2 {
+		font-size: 2em;
+	}
+	.slideshowWrapper p,
+	.slideshowWrapper ul li {
+		font-size: .95em;
+		margin-bottom: 5px;
+	}
+	.slideshowWrapper .grid_7 {
+		height: 200px;
+		overflow: hidden;
+	}
+	.slideshowWrapper .stitchesTop {
+		margin-bottom: 15px;
+	}
+	.slideshowWrapper .stitchesBase {
+		margin-top: 15px;
+	}
+	.flex-control-nav {
+		bottom: 0px;
+	}
+	ul.socialLinks {
+		text-align: left;
+	}
+
+}
+
+@media only screen and (max-width: 479px) {
+ 	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5, 
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11, 
+	.grid_12 { 
+		width: 300px;
+		margin: 0 0 20px 0;
+		float: none;
+		display: block;}
+	.grid_12 {
+		margin: 0 auto;}
+		
+	.sloganArea {
+		padding: 40px 0 40px 0;
+	}
+	.sloganArea h1 {
+		font-size: 3em;
+		margin-bottom: 20px;
+	}	
+	.slideshowWrapper h2 {
+		font-size: 2em;
+	}
+	.slideshowWrapper p,
+	.slideshowWrapper ul li {
+		font-size: .95em;
+		margin-bottom: 5px;
+	}	
+	.slideshowWrapper .grid_7 {
+		height: 220px;
+		overflow: hidden;
+	}
+	.slideshowWrapper .stitchesTop {
+		margin-bottom: 15px;
+	}
+	.slideshowWrapper .stitchesBase {
+		margin-top: 15px;
+	}
+	.flex-control-nav {
+		bottom: 0px;
+	}	
+	.skillRow .barHolder {
+		width: 200px;
+	}
+	#contactform .buttonAlign {
+		margin-left: 0;
+	}
+	ul.socialLinks {
+		text-align: left;
+	}
+	
+	header {
+	height: 42px;
+	}	
+	.navList {
+	margin-left: -5px;
+	}
+	.navList li {
+	font-size: 1.0em;
+	}	
+	.navList li a {
+	margin-left: 5px;
+	}
+	footer {
+	height: 42px;
+	}	
+	footer p{
+	font-size: 0.8em;
+	margin-top: -8px;
+	}
+}
+}
+
+/* Retina background images */
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+	.services h4 span {
+		background: url("../images/headRibbon@2x.png") no-repeat left top;	
+	  	background-size: 32px 35px;
+	}
+	.slideshowWrapper .image .shadow {
+		background: url("../images/imgShadow@2x.png") no-repeat bottom center;
+		background-size: 424px 22px;
+	}
+	#MenuBar {
+		background: url("../images/mobileMenu@2x.png") no-repeat;
+		background-size: 40px 29px;		
+	}
+}
