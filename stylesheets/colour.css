@@ -1,0 +1,21 @@
+h1,
+h2,
+a,
+a.active,
+.navList li a:hover,
+.navList li a.selected,
+.services h4 span i,
+.socialLinks a i:hover {
+	color: #F7931A;
+	}
+button.button,
+a.button,
+a.button:link,
+a.button:visited,
+.filter li.current {
+	background: #F7931A;
+	}
+button:hover,
+a.button:hover {
+	background:	#417983;
+	}		
